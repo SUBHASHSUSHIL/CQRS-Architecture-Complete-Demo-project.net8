@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookManagement.Domain", "Bo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookManagement.Infrastructure", "BookManagement.Infrastructure\BookManagement.Infrastructure.csproj", "{6B3DABEF-132A-4695-939C-6314B800491E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookManagement.Application", "BookManagement.Application\BookManagement.Application.csproj", "{51C3ADF9-C348-4653-948B-03D1B174BD03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6B3DABEF-132A-4695-939C-6314B800491E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B3DABEF-132A-4695-939C-6314B800491E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B3DABEF-132A-4695-939C-6314B800491E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51C3ADF9-C348-4653-948B-03D1B174BD03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51C3ADF9-C348-4653-948B-03D1B174BD03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51C3ADF9-C348-4653-948B-03D1B174BD03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51C3ADF9-C348-4653-948B-03D1B174BD03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

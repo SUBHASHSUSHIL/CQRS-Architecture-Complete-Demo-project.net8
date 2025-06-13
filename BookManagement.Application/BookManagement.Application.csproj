@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="AuthorCommandQuery\Commands\" />
+    <Folder Include="AuthorCommandQuery\Queries\" />
+    <Folder Include="BookCommandQuery\Commands\" />
+    <Folder Include="BookCommandQuery\Queries\" />
+    <Folder Include="BookGenresCommandQuery\Commands\" />
+    <Folder Include="BookGenresCommandQuery\Queries\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="FavoritesCommandQuery\Commands\" />
+    <Folder Include="FavoritesCommandQuery\Queries\" />
+    <Folder Include="GenresCommandQuery\Commands\" />
+    <Folder Include="GenresCommandQuery\Queries\" />
+    <Folder Include="Mapping\" />
+    <Folder Include="RefreshTokensCommandQuery\Commands\" />
+    <Folder Include="RefreshTokensCommandQuery\Queries\" />
+    <Folder Include="ReviewsCommandQuery\Commands\" />
+    <Folder Include="ReviewsCommandQuery\Queries\" />
+    <Folder Include="RolesCommandQuery\Commands\" />
+    <Folder Include="RolesCommandQuery\Queries\" />
+    <Folder Include="UsersBookCommandQuery\Commands\" />
+    <Folder Include="UsersBookCommandQuery\Queries\" />
+    <Folder Include="UsersCommandQuery\Commands\" />
+    <Folder Include="UsersCommandQuery\Queries\" />
+    <Folder Include="UsersRoleCommandQuery\Commands\" />
+    <Folder Include="UsersRoleCommandQuery\Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+    <PackageReference Include="MediatR" Version="12.5.0" />
+  </ItemGroup>
+
+</Project>
